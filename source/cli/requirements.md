@@ -72,8 +72,3 @@ $ source ~/.bashrc
 $ go version
 $ go env
 ```
-
-
-
-
-
