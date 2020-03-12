@@ -11,9 +11,8 @@ Welcome to DCF's documentation!
    :caption: Contents:
 
    overview/index
-   getting_started/index
-   cli/index
-   tutorial/index
+   user_guide/index
+   developer_guide/index
 
 * :ref:`genindex`
 * :ref:`modindex`
