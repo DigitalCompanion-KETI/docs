@@ -5,6 +5,7 @@
 
 
 - Kuberntes (>= v1.15.2) or Minikube (>= v1.4.0)
+- kubectl
 - Python (2.x or 3.x)
 - Golang (>= v1.12.5)
 - grpc (>=v1.25.0)
@@ -14,6 +15,32 @@
 - protoc-gen-go (>= v1.2.0)
 - grpc-tools
 - protoc plugin
+
+
+
+## Minikube
+
+Minikube를 설치한다.
+
+```
+$ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+  && chmod +x minikube
+$ sudo cp minikube /usr/local/bin && rm minikube
+```
+
+
+
+## Kubectl
+
+Kubernets의 CLI인 kubectl을 설치한다.
+
+```
+$ curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+$ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.14.0/bin/linux/amd64/kubectl
+$ chmod +x ./kubectl
+$ sudo mv ./kubectl /usr/local/bin/kubectl
+$ kubectl version
+```
 
 
 
