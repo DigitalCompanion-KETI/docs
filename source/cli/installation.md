@@ -31,7 +31,7 @@ $ mkdir -p $GOPATH/src/github.com/digitalcompanion-keti
 
 
 
-Digital Companion Framework의 pb를 다운로드 한다.
+Digital Companion Framework의 pb를 다운로드한다.
 
 ```bash
 $ cd $GOPATH/src/github.com/digitalcompanion-keti
@@ -45,7 +45,7 @@ $ sudo chown -R $USER pb
 
 ### Clone CLI from GitHub
 
-Digital Companion Framework의 CLI를 다운로드 한다.
+Digital Companion Framework의 CLI를 다운로드한다.
 
 ```bash
 $ cd $GOPATH/src/github.com/digitalcompanion-keti
