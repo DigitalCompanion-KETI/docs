@@ -4,7 +4,7 @@ Getting Started
 .. toctree::
    :maxdepth: 2
 
-   requirements
+   prerequisites
    private_registry
    gateway
    watcher
