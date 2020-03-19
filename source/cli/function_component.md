@@ -1,3 +1,4 @@
+
 # Function Component
 
 DCF는 마이크로 아키텍처 서비스 기반 프레임워크이며 인공지능 모델 서빙(Serving)을 지원하는 목적으로 만들어졌다. 인공지능 모델 서빙(Serving) 시 기본 배포 단위는 함수(Function)이다. 함수(Function)는 두 가지 컴포넌트로 구성된다.
