@@ -5,7 +5,7 @@ Developer Guide
    :maxdepth: 2
 
    introduction
-   requirements
+   prerequisites
    private_registry
    gateway
    watcher
