@@ -3,18 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DCF's documentation!
+Setup
 ====================================
+
+DCF를 설치하는 방법에 대해서 알아봅니다
+
+DCF 설치방법은 다음과 같이 구성되어있습니다
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   1_introduction/index
-   2_setup/index
-   3_getting_started/index
-   4_examples/index
-   5_components/index
-   6_roadmap/index
-   7_references/index
+   1_cli/index
+   2_dcf/index
+
 
